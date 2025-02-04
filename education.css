@@ -1,0 +1,16 @@
+#main-education{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 3vw;
+}
+
+#main-education-text{
+    width: 100%;
+    margin: 1vh 1vw;
+}
+
+#main-education-degree{
+    font-size: calc(2px + 2vw);
+    font-weight: bold;
+}

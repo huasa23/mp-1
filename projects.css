@@ -1,0 +1,45 @@
+#main-projects{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2vh 3vw;
+}
+
+#main-projects-text{
+    width: 100%;
+    margin: 1vh 1vw;
+}
+
+#main-projects-title{
+    font-size: calc(2px + 2vw);
+    font-weight: bold;
+}
+
+#calculator{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 0;
+    border: 1px solid black;
+}
+
+#calculator-input, #calculator-output{
+    display: flex;
+    flex-direction: row;
+}
+
+#first-number, #second-number{
+    width: 25%;
+    margin: 1vh 1vw;
+}
+
+#button-operation{
+    width: 5%;
+    margin: 1vh 1vw;
+}
+
+#output{
+    height: 1vh;
+    width: 5%;
+    margin: 1vh 1vw;
+}
