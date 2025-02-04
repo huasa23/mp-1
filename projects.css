@@ -24,6 +24,7 @@
 }
 
 #calculator-input, #calculator-output{
+    
     display: flex;
     flex-direction: row;
 }
@@ -34,12 +35,21 @@
 }
 
 #button-operation{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: calc(1px + 1vw);
     width: 5%;
     margin: 1vh 1vw;
 }
 
 #output{
+    font-size: calc(1px + 1vw);
     height: 1vh;
     width: 5%;
     margin: 1vh 1vw;
+}
+
+.negative-result {
+    color: red;
 }

@@ -40,13 +40,3 @@ function clearInputs() {
     document.getElementById('second-number').value = '';
     document.getElementById('output').innerHTML = '';
 }
-
-document.querySelectorAll('nav a').forEach(link => {
-    link.addEventListener('click', function(e) {
-        document.querySelectorAll('.content').forEach(section => {
-            section.classList.remove('active');
-        });
-        const targetId = e.target.getAttribute('href').substring(1);
-        document.getElementById(targetId).classList.add('active');
-    });
-});
