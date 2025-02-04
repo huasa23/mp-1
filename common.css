@@ -19,7 +19,6 @@ header{
 #name {
     margin: auto;
     font-family: "Sixtyfour Convergence", serif;
-    font-optical-sizing: auto;
     font-size: calc(10px + 5vw);
     font-weight: 600;
     font-style: normal;
